@@ -74,3 +74,10 @@ Models were ranked according to their mean DSC scores across the five target car
 | 12 | Modified-UNet 1 | 0.7189 |
 | 13 | 3D U-Net | 0.7049 |
 
+### Key Observations
+
+- All evaluated structures achieved their highest voxel-level recall using nnUNet.
+- The aorta was the easiest structure to segment, achieving nearly 99% voxel recall and precision.
+- The pulmonary veins remained the most challenging structure due to their smaller size and anatomical variability.
+- Several proposed anatomical-prior-based architectures substantially improved upon the baseline 3D U-Net despite remaining below nnUNet performance.
+
