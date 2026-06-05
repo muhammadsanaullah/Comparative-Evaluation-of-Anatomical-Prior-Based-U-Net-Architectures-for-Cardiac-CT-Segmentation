@@ -4,24 +4,10 @@
 
 This project investigates whether anatomical prior information can improve cardiac CT segmentation performance.
 
-Five cardiovascular structures were segmented:
+Five cardiovascular structures were segmented: heart, aorta, inferior vena cava, superior vena cava and pulmonary vein (ground truth labels from TotalSegmentator's public dataset).
+Six additional structures were incorporated as anatomical pseudo-labels: left atrium , right atrium, left ventricle, right ventricle, myocardium and coronary arteries (predictions made by TotalSegmentator).
 
-- Heart
-- Aorta
-- Inferior Vena Cava
-- Superior Vena Cava
-- Pulmonary Veins
-
-Six additional structures were incorporated as anatomical pseudo-labels:
-
-- Left Atrium
-- Right Atrium
-- Left Ventricle
-- Right Ventricle
-- Myocardium
-- Coronary Arteries
-
-The study compares:
+The following architectures were compared:
 
 - 2D U-Net
 - 3D U-Net
@@ -30,11 +16,7 @@ The study compares:
 
 ## Dataset
 
-TotalSegmentator Dataset
-
-https://github.com/wasserth/TotalSegmentator
-
-1228 CT volumes were used.
+1228 CT volumes used from TotalSegmentator's Dataset: https://github.com/wasserth/TotalSegmentator
 
 ## Architectures Evaluated
 
