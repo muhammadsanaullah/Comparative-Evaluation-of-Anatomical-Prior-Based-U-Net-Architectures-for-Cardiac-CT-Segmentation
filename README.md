@@ -6,7 +6,7 @@ This project investigates whether anatomical prior information can improve cardi
 
 Five cardiovascular structures were segmented: heart, aorta, inferior vena cava, superior vena cava and pulmonary vein (ground truth labels from TotalSegmentator's public dataset).
 
-Six additional structures were incorporated as anatomical pseudo-labels: left atrium , right atrium, left ventricle, right ventricle, myocardium and coronary arteries (predictions made by TotalSegmentator).
+Six additional structures were incorporated as anatomical pseudo-labels: left atrium, right atrium, left ventricle, right ventricle, myocardium and coronary arteries (predictions made by TotalSegmentator).
 
 The following architectures were compared:
 
